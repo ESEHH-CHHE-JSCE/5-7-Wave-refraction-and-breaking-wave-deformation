@@ -1,11 +1,14 @@
 # 5-7-Wave-Transformation
-�y��� 5.7�z�@�g�̋��܂ƍӔg�ό`
+【例題 5.7】　波の屈折と砕波変形
 
-*.sw	DHI/AS MIKE21 SW�̓��̓t�@�C��(�e�L�X�g�`��)
-*.mesh	DHI/AS MIKE21 SW�̒n�`�t�@�C��(�e�L�X�g�`��)
+*.sw	DHI/AS MIKE21 SWの入力ファイル(テキスト形式)
 
-*.sw��MIKE21 SW�Ŏ��s����΂悢�D
+*.mesh	DHI/AS MIKE21 SWの地形ファイル(テキスト形式)
 
+*.swをMIKE21 SWで実行すればよい．
 
-*.dat	���[�f�[�^
-dat2mesh.f ���[�f�[�^��MIKE 21 SW�p�C��n�`�t�@�C���ɕϊ����邽�߂̃v���O����
+"-----
+
+*.dat	水深データ
+
+dat2mesh.f 水深データをMIKE 21 SW用海底地形ファイルに変換するためのプログラム
